@@ -1,0 +1,54 @@
+.container {
+    padding: 5% 5%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    background-color: #EAECF0;
+}
+.anchor-tag {
+   text-decoration: none;
+   width: 100%;
+}
+.username {
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer {
+    padding: 10% 0%;
+}
+.ml-2 {
+    padding-left: 8rem;
+}
+.profile-img {
+    margin-bottom: 1.5rem;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tooltip-inner {
+    background-color: #d3d4d5!important;
+    color: #000000e5;
+}
+.f-text {
+    color: #667085;
+
+}
+
+
+@media (min-width: 710px) and (max-width: 990px) {
+  .ml-2, .ml-md-2 {
+    padding-left: 2rem;
+  } 
+  .p-md-0 {
+    padding-left: 0!important;
+  } 
+}
+@media (max-width: 700px) {
+    .ml-md-2, .ml-2 {
+        padding-left: 3rem;
+    }
+}
