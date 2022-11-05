@@ -1,6 +1,7 @@
 import React from "react";
 import './homepage.css'
 import {Button, Col, Container, OverlayTrigger, Row, Tooltip} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 function Homepage() {
     return (
@@ -72,6 +73,9 @@ function Homepage() {
             <Button size="lg" variant="light" className="w-100 bg mb-3">Design books</Button>
             </OverlayTrigger>
             </a>
+            <Link to="/contact">
+            <Button size="lg" variant="light" className="w-100 bg mb-3">Contact</Button>
+            </Link>
         
             </div>
             </Col>
